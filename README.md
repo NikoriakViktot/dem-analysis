@@ -2,7 +2,7 @@
 
 This repository presents a scientific study and practical workflow for evaluating global Digital Elevation Models (DEMs) in mountainous regions of Ukraine, with a focus on hydrological and hydraulic applications.
 
-## 🌍 Project Overview
+## Project Overview
 
 Digital Elevation Models (DEMs) are the geometric backbone of hydrological modeling, enabling watershed delineation, river profiling, and floodplain simulation. However, DEMs are more than just height grids — they represent a discretized form of the gravitational field that governs how water flows.
 
@@ -15,7 +15,7 @@ In this study, we systematically assess the quality of four publicly available g
 
 Each model is aligned to the **EGG2015** vertical reference system and validated using high-precision **ICESat-2 ATL08** LiDAR ground returns over the **Bilyi Cheremosh River basin** — a representative mountainous watershed in the Ukrainian Carpathians.
 
-## 🎯 Objectives
+## Objectives
 
 - Align all DEMs to a **unified vertical datum** (EGG2015 / EVRS)
 - Validate DEMs against **ICESat-2 ATL08** ground elevations
@@ -26,21 +26,21 @@ Each model is aligned to the **EGG2015** vertical reference system and validated
   - **terrain derivatives** (slope, curvature, ruggedness)
 - Assess **DEM suitability for hydrological and hydraulic modeling**
 
-## 🧠 Knowledge Gap Addressed
+## Knowledge Gap Addressed
 
 While global DEM evaluations with ICESat-2 exist, few studies focus on:
 - the **Ukrainian Carpathians**
 - the **hydrological relevance** (e.g., valley shape, slope realism)
 - the **need for vertical datum harmonization**
 
-## 🧪 Scientific Contribution
+## Scientific Contribution
 
 By integrating DEMs with geoid models and validating against ICESat-2 reference surfaces, this project provides:
 - a **new framework** for DEM trust evaluation
 - reproducible, geodetically accurate methods
 - high-resolution insights for mountain hydrology and terrain modeling
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 project/
@@ -56,7 +56,7 @@ project/
 └── README.md              # Project documentation
 ```
 
-## ⚙️ Getting Started
+## ️ Getting Started
 
 ### 1. Clone the repository
 
@@ -79,16 +79,16 @@ conda activate dem-env
 jupyter lab
 ```
 
-## 📚 References
+##  References
 
 - ICESat-2 ATL08 Product: https://nsidc.org/data/ATL08
 - EGG2015 Geoid Model: https://www.bkg.bund.de/EGG2015
 - FABDEM: Forest and Buildings Removed Copernicus DEM: https://fabdem.github.io
 
-## 📜 License
+##  License
 
 MIT License © Viktor Nikoriak, Ukrainian Hydrometeorological Institute
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 This work contributes to ongoing research in the **Ukrainian Hydrometeorological Institute**
