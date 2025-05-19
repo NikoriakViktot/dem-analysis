@@ -11,6 +11,11 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    from utils.config import get_data_path
+    import os
+
+    file_path = os.path.join(get_data_path(), "file.parquet")
+
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
