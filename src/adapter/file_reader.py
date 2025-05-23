@@ -22,6 +22,11 @@ class Reader:
         """Read a CSV file and return DataFrame."""
         return pd.read_csv(self.full_path)
 
+    def read_gpkg(self) -> gpd.GeoDataFrame:
+        """Read a GeoParquet file and return GeoDataFrame."""
+        return gpd.read_file(self.full_path)
+
+
     def read_parquet(self) -> gpd.GeoDataFrame:
         """Read a GeoParquet file and return GeoDataFrame."""
         return gpd.read_parquet(self.full_path)
