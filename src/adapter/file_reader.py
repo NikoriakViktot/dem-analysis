@@ -1,3 +1,5 @@
+from statsmodels.tsa.statespace.tests.test_mlemodel import kwargs
+
 from src.adapter.file_resolver import resolve
 import geopandas as gpd
 import pandas as pd
@@ -18,20 +20,19 @@ class Reader:
 
 
 
+
+
     def read_csv(self) -> pd.DataFrame:
         """Read a CSV file and return DataFrame."""
         return pd.read_csv(self.full_path)
 
-    def read_gpkg(self) -> gpd.GeoDataFrame:
+
+    def read_gpkg(self,  **kwargs) -> gpd.GeoDataFrame:
         """Read a GeoParquet file and return GeoDataFrame."""
-        return gpd.read_file(self.full_path)
+        return gpd.read_file(self.full_path , **kwargs)
 
-
-    def read_parquet(self) -> gpd.GeoDataFrame:
-        """Read a GeoParquet file and return GeoDataFrame."""
-        return gpd.read_parquet(self.full_path)
-
-
+    def read_parquet(self, bbox=None, columns=None, **kwargs):
+        return gpd.read_parquet(self.full_path, bbox=bbox, columns=columns, **kwargs)
 
     def read_dem(self, mode: str = "array"):
         """
