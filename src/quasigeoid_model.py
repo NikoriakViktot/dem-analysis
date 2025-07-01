@@ -53,7 +53,7 @@ class QuasigeoidModel:
             west=lon_min,
             north=lat_max,
             xsize=lon_step,
-            ysize=lat_step  # бо пікселі "йдуть вниз"
+            ysize=lat_step
         )
 
         with rasterio.open(

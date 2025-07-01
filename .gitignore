@@ -1,0 +1,54 @@
+# Середовища
+.env
+*.env
+*.venv/
+.venv/
+env/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Дані (csv, geojson, parquet, hdf5, tif, shp, nc, pkl, las…)
+data/
+data_clipped/
+geo_parqet_file/
+*.csv
+*.parquet
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.las
+*.laz
+*.nc
+*.h5
+*.hdf
+*.pkl
+*.json
+*.geojson
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+*.bak
+
+# Вихідні зображення / моделі
+output/
+models/
+figures/
+maps/
+*.png
+*.jpg
+*.pdf
+*.svg
+*.h5
+*.joblib
+
+# IDE / OS файли
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+desktop.ini

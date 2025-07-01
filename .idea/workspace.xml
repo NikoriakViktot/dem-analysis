@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d78a389-8f74-47a5-8a2e-5628572b78dd" name="Changes" comment="version 1.9(download_icesat2)">
-      <change afterPath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" afterDir="false" />
+    <list default="true" id="1d78a389-8f74-47a5-8a2e-5628572b78dd" name="Changes" comment="version 2.9(map_tracks_icesat2)">
+      <change afterPath="$PROJECT_DIR$/notebooks/Fill_Depressions.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/aspect.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/flow_accumulation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/hand.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/reproject_dem_UTM_35N.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/slope.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/stream_raster.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Icesat_download.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Icesat_download.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/file_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/file_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/myio/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myio/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/myio/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/all_dem_icesat.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/all_dem_icesat.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quasigeoid_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quasigeoid_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +78,7 @@
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/5302/PycharmProjects/geoid&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/5302/PycharmProjects/geoid/notebooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,6 +91,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks" />
       <recent name="C:\Users\5302\PycharmProjects\geoid" />
       <recent name="C:\Users\5302\PycharmProjects\geoid\data_clipped\copernicus" />
       <recent name="C:\Users\5302\PycharmProjects\geoid\data" />
@@ -308,7 +316,18 @@
       <workItem from="1750234513366" duration="2824000" />
       <workItem from="1750237927504" duration="469000" />
       <workItem from="1750238413899" duration="18257000" />
-      <workItem from="1750313835296" duration="16447000" />
+      <workItem from="1750313835296" duration="26303000" />
+      <workItem from="1750364183110" duration="1000" />
+      <workItem from="1750405027794" duration="1272000" />
+      <workItem from="1750573329544" duration="369000" />
+      <workItem from="1750663600405" duration="5586000" />
+      <workItem from="1750697064860" duration="4442000" />
+      <workItem from="1750758360597" duration="5000" />
+      <workItem from="1750838551581" duration="1264000" />
+      <workItem from="1750931677586" duration="9112000" />
+      <workItem from="1751019669430" duration="1556000" />
+      <workItem from="1751022492021" duration="8228000" />
+      <workItem from="1751051150183" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0">
       <option name="closed" value="true" />
@@ -366,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750188909197</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="version 2.9(map_tracks_icesat2)">
+      <option name="closed" value="true" />
+      <created>1750354150978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750354150978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +407,8 @@
     <MESSAGE value="version 1.7" />
     <MESSAGE value="version 1.8" />
     <MESSAGE value="version 1.9(download_icesat2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.9(download_icesat2)" />
+    <MESSAGE value="version 2.9(map_tracks_icesat2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.9(map_tracks_icesat2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
