@@ -82,7 +82,7 @@ jupyter lab
 ##  References
 
 - ICESat-2 ATL08 Product: https://nsidc.org/data/ATL08
-- EGG2015 Geoid Model: https://www.bkg.bund.de/EGG2015
+- EGG2015 Geoid Model: [https://www.bkg.bund.de/EGG2015](https://www.bkg.bund.de/DE/Home/home.html)
 - FABDEM: Forest and Buildings Removed Copernicus DEM: https://fabdem.github.io
 
 ##  License
