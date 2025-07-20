@@ -5,8 +5,9 @@ from rasterio.mask import mask
 from pathlib import Path
 
 # --- Вхідні дані ---
-dem_path = Path("/mnt/c/Users/5302/PycharmProjects/geoid/data/copernicus/copernicus_dеm_ellip.tif")
-mask_path = Path("/mnt/c/Users/5302/PycharmProjects/geoid/data/basin_bil_cher_buf_500.gpkg")
+dem_path = Path("/mnt/c/Users/5302/OneDrive/PhD/paper_DEM_artickle/data/data_raw/tandem/tan_dem.tif")
+
+mask_path = Path("/mnt/c/Users/5302/OneDrive/PhD/paper_DEM_artickle/data/data_raw/basin_bil_cher_buf_500.gpkg")
 output_path = dem_path.parent / f"{dem_path.stem}_clipped.tif"
 
 # --- Читання маски ---

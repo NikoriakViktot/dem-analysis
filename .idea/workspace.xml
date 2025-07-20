@@ -4,20 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d78a389-8f74-47a5-8a2e-5628572b78dd" name="Changes" comment="version 2.9(map_tracks_icesat2)">
-      <change afterPath="$PROJECT_DIR$/notebooks/Fill_Depressions.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/aspect.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/flow_accumulation.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/hand.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/reproject_dem_UTM_35N.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/slope.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/stream_raster.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1d78a389-8f74-47a5-8a2e-5628572b78dd" name="Changes" comment="version 3.0(hand)">
+      <change afterPath="$PROJECT_DIR$/notebooks/HAND/flood_scenarios_hand_1_10.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/geomorph/TWI.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/geomorph/geomorphons.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/geomorph/terrain_attributes.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/hydro/DownslopeDistanceToStream.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/11.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/all_data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/all_dem_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/dem_atribute_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/geomorphons_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/hand_floods_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/hand_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/icesat2_data_orthometric_h.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/lulc_icesat_class.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/merge_icesat_dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/reproject_icesat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/icesat/rest_merg.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/stats/stats_ground.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/all_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exemple_xDEM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/merg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Icesat_download.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Icesat_download.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/all_dem_icesat.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/all_dem_icesat.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quasigeoid_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/quasigeoid_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Fill_Depressions.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/hydro/Fill_Depressions.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ICESat2_trek_map.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/icesat/ICESat2_trek_map.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Icesat_download.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/icesat/Icesat_download.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/all_dem_icesat.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/aspect.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/copernicus_dsm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DEM/copernicus_dsm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/flow_accumulation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/hydro/flow_accumulation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/hand.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/HAND/hand.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/lulc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/LULC/lulc.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/nasadem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DEM/nasadem.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/reproject_dem_UTM_35N.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DEM/reproject_dem_UTM_35N.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/slope.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/geomorph/slope.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/srtm.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DEM/srtm.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/stats_dem_icesat.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/icesat/stats_dem_icesat.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/stream_raster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/hydro/stream_raster.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/tandem.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/DEM/tandem.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clip_cop.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/clip_cop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_blockwise_coreg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_blockwise_coreg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_dem_subtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_dem_subtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_demcollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_demcollection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_deramp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_deramp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_heterosc_estimation_modelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_heterosc_estimation_modelling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_norm_regional_hypso.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_norm_regional_hypso.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_slope_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_slope_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_spatial_error_propagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_spatial_error_propagation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plot_variogram_estimation_modelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/exemple_xDEM/plot_variogram_estimation_modelling.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -63,6 +98,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.all_data.executor&quot;: &quot;Run&quot;,
     &quot;Python.clip_cop.executor&quot;: &quot;Run&quot;,
     &quot;Python.clip_dems_by_mask.executor&quot;: &quot;Run&quot;,
     &quot;Python.config (1).executor&quot;: &quot;Run&quot;,
@@ -71,6 +107,7 @@
     &quot;Python.gtoid_maker.executor&quot;: &quot;Run&quot;,
     &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.maps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merg.executor&quot;: &quot;Run&quot;,
     &quot;Python.reproject_alos.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -98,15 +135,15 @@
       <recent name="C:\Users\5302\PycharmProjects\geoid\data\nasadem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\5302\PycharmProjects\geoid\src\utils" />
-      <recent name="C:\Users\5302\PycharmProjects\geoid\data" />
-      <recent name="C:\Users\5302\PycharmProjects\geoid\output" />
-      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks" />
-      <recent name="C:\Users\5302\PycharmProjects\geoid\src" />
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks\geomorph" />
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks\LULC" />
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks\HAND" />
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks\icesat" />
+      <recent name="C:\Users\5302\PycharmProjects\geoid\notebooks\DEM" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.config (1)">
-    <configuration name="clip_cop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.all_data">
+    <configuration name="all_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geoid" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,12 +152,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\5302\PycharmProjects\geoid\src\clip_cop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/all_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="merg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geoid" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,12 +267,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\5302\PycharmProjects\geoid\src\maps.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/merg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.all_data" />
+        <item itemvalue="Python.merg" />
         <item itemvalue="Python.config (1)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.config" />
-        <item itemvalue="Python.clip_cop" />
-        <item itemvalue="Python.maps" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +365,55 @@
       <workItem from="1751019669430" duration="1556000" />
       <workItem from="1751022492021" duration="8228000" />
       <workItem from="1751051150183" duration="2000" />
+      <workItem from="1751352291379" duration="12078000" />
+      <workItem from="1751390150340" duration="591000" />
+      <workItem from="1751398339740" duration="2198000" />
+      <workItem from="1751433199808" duration="6356000" />
+      <workItem from="1751442622218" duration="979000" />
+      <workItem from="1751443741026" duration="158000" />
+      <workItem from="1751452465533" duration="9464000" />
+      <workItem from="1751466328432" duration="8326000" />
+      <workItem from="1751478799443" duration="1029000" />
+      <workItem from="1751480234365" duration="2947000" />
+      <workItem from="1751486375721" duration="1346000" />
+      <workItem from="1751524945183" duration="1736000" />
+      <workItem from="1751526769511" duration="685000" />
+      <workItem from="1751527492311" duration="74000" />
+      <workItem from="1751527682279" duration="528000" />
+      <workItem from="1751528226247" duration="285000" />
+      <workItem from="1751528560459" duration="2723000" />
+      <workItem from="1751539342747" duration="7234000" />
+      <workItem from="1751608725749" duration="10831000" />
+      <workItem from="1751622431809" duration="6071000" />
+      <workItem from="1751628587070" duration="3189000" />
+      <workItem from="1751706765862" duration="2429000" />
+      <workItem from="1751747218444" duration="179000" />
+      <workItem from="1751784299927" duration="2172000" />
+      <workItem from="1751789734586" duration="747000" />
+      <workItem from="1751790489829" duration="632000" />
+      <workItem from="1751791162481" duration="153000" />
+      <workItem from="1751791353131" duration="649000" />
+      <workItem from="1751792013682" duration="29000" />
+      <workItem from="1751792441609" duration="4185000" />
+      <workItem from="1751796668216" duration="418000" />
+      <workItem from="1751797092499" duration="7465000" />
+      <workItem from="1751839147053" duration="906000" />
+      <workItem from="1751882947250" duration="2349000" />
+      <workItem from="1751963142043" duration="637000" />
+      <workItem from="1751965832707" duration="476000" />
+      <workItem from="1751966332441" duration="4000" />
+      <workItem from="1751972202745" duration="828000" />
+      <workItem from="1751973354140" duration="4000" />
+      <workItem from="1751974946600" duration="1538000" />
+      <workItem from="1752237806772" duration="1363000" />
+      <workItem from="1752493947097" duration="69000" />
+      <workItem from="1752651387640" duration="2138000" />
+      <workItem from="1752653720083" duration="1223000" />
+      <workItem from="1752733234133" duration="39000" />
+      <workItem from="1752825327295" duration="660000" />
+      <workItem from="1752826631106" duration="4000" />
+      <workItem from="1752831327978" duration="2186000" />
+      <workItem from="1752849195001" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.0">
       <option name="closed" value="true" />
@@ -393,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750354150978</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="version 3.0(hand)">
+      <option name="closed" value="true" />
+      <created>1751352585731</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1751352585731</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +502,8 @@
     <MESSAGE value="version 1.8" />
     <MESSAGE value="version 1.9(download_icesat2)" />
     <MESSAGE value="version 2.9(map_tracks_icesat2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.9(map_tracks_icesat2)" />
+    <MESSAGE value="version 3.0(hand)" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 3.0(hand)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,7 +523,9 @@
     <SUITE FILE_PATH="coverage/geoid$reproject_alos.coverage" NAME="reproject_alos Coverage Results" MODIFIED="1746096242037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/alos" />
     <SUITE FILE_PATH="coverage/geoid$dem_transformation.coverage" NAME="dem_transformation Coverage Results" MODIFIED="1746099734049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/geoid$clip_dems_by_mask.coverage" NAME="clip_dems_by_mask Coverage Results" MODIFIED="1746198351957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/geoid$merg.coverage" NAME="merg Coverage Results" MODIFIED="1751623884562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/geoid$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1747655448140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/geoid$config__1_.coverage" NAME="config (1) Coverage Results" MODIFIED="1747656350797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
+    <SUITE FILE_PATH="coverage/geoid$all_data.coverage" NAME="all_data Coverage Results" MODIFIED="1751797117746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
