@@ -336,3 +336,7 @@ dependencies:
   - zlib-ng=2.2.4=h7955e40_0
   - zstandard=0.23.0=py311h9ecbd09_1
   - zstd=1.5.7=hb8e6e7a_2
+  - earthengine-api>=0.1.4
+  - geemap>=0.33
+  - altair
+  - google-cloud-storage
